@@ -1,0 +1,183 @@
+## Interface: 16001
+## Title: SideStreet
+## Notes: An original household life simulator in a window. /sidestreet to open.
+## Author: John
+## Version: 0.2.0
+## SavedVariables: SideStreetDB
+
+# [core (orchestrator)]
+Core\Core.lua
+Core\Save.lua
+Core\Compat.lua
+
+# [data: household-core]
+Data\Tuning.lua
+Data\Interactions.lua
+Data\Food.lua
+
+# [data: catalogue]
+Data\Objects.lua
+Data\Catalog\Seating.lua
+Data\Catalog\Sleeping.lua
+Data\Catalog\Surfaces.lua
+Data\Catalog\Kitchen.lua
+Data\Catalog\Plumbing.lua
+Data\Catalog\Electronics.lua
+Data\Catalog\Lighting.lua
+Data\Catalog\Skill.lua
+Data\Catalog\Storage.lua
+Data\Catalog\Decor.lua
+Data\Catalog\Outdoor.lua
+Data\Catalog\Kids.lua
+Data\Catalog\Community.lua
+Data\Finishes.lua
+
+# [data: art]
+Data\Art.lua
+
+# [data: ui-shell]
+Data\Audio.lua
+
+# [data: social]
+Data\Socials.lua
+Data\Topics.lua
+Data\Lines.lua
+
+# [data: careers]
+Data\Careers.lua
+
+# [data: visitors]
+Data\Roles.lua
+
+# [data: events]
+Data\Events.lua
+
+# [data: family]
+Data\Family.lua
+Data\Pets.lua
+Data\Plants.lua
+
+# [data: outings]
+Data\Venues.lua
+Data\CommunityLots.lua
+
+# [data: hood]
+Data\Hood.lua
+Data\HoodLots.lua
+Data\Premades.lua
+Data\Fixtures.lua
+
+# [sim: household-core]
+Sim\Grid.lua
+Sim\World.lua
+Sim\Nav.lua
+Sim\Needs.lua
+Sim\Actions.lua
+Sim\Sim.lua
+Sim\Maintenance.lua
+Sim\Chains.lua
+Sim\Leisure.lua
+
+# [sim: build]
+Sim\Undo.lua
+Sim\Build.lua
+Sim\Roof.lua
+Sim\Terrain.lua
+Sim\Pool.lua
+
+# [sim: catalogue]
+Sim\Inventory.lua
+Sim\Placement.lua
+
+# [sim: social]
+Sim\Personality.lua
+Sim\Social.lua
+Sim\Lines.lua
+Sim\Conversation.lua
+
+# [sim: careers]
+Sim\Skills.lua
+Sim\Economy.lua
+Sim\Career.lua
+Sim\School.lua
+
+# [sim: visitors]
+Sim\Street.lua
+Sim\Visitors.lua
+Sim\Services.lua
+Sim\Phone.lua
+
+# [sim: events]
+Sim\Events.lua
+Sim\Fire.lua
+Sim\Death.lua
+Sim\Hazards.lua
+UI\Events.lua
+
+# [sim: family]
+Sim\Family.lua
+Sim\Infants.lua
+Sim\Pets.lua
+Sim\Garden.lua
+Sim\Parties.lua
+
+# [sim: outings]
+Sim\Travel.lua
+Sim\Venues.lua
+Sim\Shopping.lua
+Sim\Dining.lua
+
+# [sim: hood]
+Sim\HoodLots.lua
+Sim\Hood.lua
+Sim\Households.lua
+
+# [render: art]
+Render\Lot.lua
+Render\Effects.lua
+
+# [render: build]
+Render\BuildFx.lua
+
+# [audio: ui-shell]
+Audio\Director.lua
+Audio\Extras.lua
+
+# [ui: ui-shell]
+UI\Kit.lua
+UI\Main.lua
+UI\Options.lua
+UI\Journal.lua
+UI\Inspector.lua
+UI\Emergency.lua
+UI\Title.lua
+UI\Tutorial.lua
+
+# [ui: catalogue]
+UI\Buy.lua
+
+# [ui: build]
+UI\Build.lua
+
+# [ui: social]
+UI\Social.lua
+
+# [ui: careers]
+UI\Career.lua
+
+# [ui: visitors]
+UI\Phone.lua
+
+# [ui: family]
+UI\Family.lua
+
+# [ui: outings]
+UI\Travel.lua
+
+# [ui: hood]
+UI\HoodMap.lua
+UI\Hood.lua
+UI\Create.lua
+
+# [boot (ui-shell)]
+Core\Boot.lua
